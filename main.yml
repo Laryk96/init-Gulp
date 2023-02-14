@@ -1,0 +1,8 @@
+name: Testing
+on: workflow_dispatch
+jobs:
+  print: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Print to Cconsole
+        run : echo hello GH ACTIONS!
